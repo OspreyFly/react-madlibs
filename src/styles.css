@@ -1,0 +1,23 @@
+body {
+    background-color: red;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Default value, but explicitly stated for clarity */
+    justify-content: space-between; /* Distributes items evenly along the horizontal line */
+    align-items: center; /* Aligns items vertically in the middle */
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    color: white;
+  }
+  
+  .list-item {
+    padding: 10px; /* Adds some padding around each item */
+    margin: 5px; /* Adds some margin between items */
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
